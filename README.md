@@ -41,7 +41,7 @@ fragility-in-low-volatility-regimes/
 
 ---
 
-## 🧪 Notebook Notes (Redacted)
+##  Notebook Notes (Redacted)
 
 The notebooks in this repo are demonstration versions of the analysis.  
 To protect proprietary modeling logic and data sources, the following have been removed:
@@ -56,62 +56,55 @@ Where applicable, cells have been replaced with:
 
 ```python
 # Redacted: proprietary modeling code removed for public release.
+```
 
-he visible cells include:
+The visible cells include:
 
-figure generation
-
-FE_t construction logic
-
-basic data handling
-
-descriptive analysis used in the article
+- figure generation
+- FE_t construction logic
+- basic data handling
+- descriptive analysis used in the article
 
 This format follows common practice for public research notes.
 
-📊 Figures
+## Figures
 
 All major figures and tables used in the article are provided in PNG format, including:
 
-VIX vs Realized Volatility with Forecast-Error Gap
-
-GARCH(1,1) vs Machine Learning forecast comparisons
-
-Tail vs non-tail error distributions
-
-Margin debt vs FE_t scatterplot
-
-Summary tables of MAE and RMSE across regimes
+- VIX vs Realized Volatility with Forecast-Error Gap
+- GARCH(1,1) vs Machine Learning forecast comparisons
+- Tail vs non-tail error distributions
+- Margin debt vs FE_t scatterplot
+- Summary tables of MAE and RMSE across regimes
 
 Access these files in the figures/ directory.
 
-🔍 Data Sources
+## Data Sources
 
 The analysis draws from publicly accessible sources such as:
 
-FRED (Federal Reserve Bank of St. Louis)
-
-Yahoo Finance (yfinance)
+- FRED (Federal Reserve Bank of St. Louis)
+- Yahoo Finance (yfinance)
 
 Author-constructed datasets for forecast errors and model outputs
 
 Raw data is not included in this repository due to licensing and reproducibility constraints.
 
-📝 Citation
+## Citation
 
 If referencing this work, please cite:
 
-Kim, S.Y. (2025). How Stability Creates Market Instability. The Basel Point.
+**Kim, S.Y. (2025).** *How Stability Creates Market Instability.* **The Basel Point.**
 
-📬 Contact
+## Contact
 
 For inquiries related to this research:
 
-S.Y. Kim
+**S.Y. Kim**
 The Basel Point
-(Add your professional website or contact email if desired.)
+*thebaselpoint@gmail.com*
 
-⚠️ License
+## License
 
 This repository is distributed for educational and informational purposes only.
 Not investment advice. No warranties or guarantees of accuracy.
