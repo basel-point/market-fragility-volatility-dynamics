@@ -25,17 +25,18 @@ This repository provides a curated, redacted version of the analysis used to pro
 fragility-in-low-volatility-regimes/
 │
 ├── figures/
-│ ├── vix_vs_rv_fe.png
-│ ├── garch_vs_ml_mae.png
-│ ├── tail_vs_nontail_boxplot.png
-│ ├── margin_scatterplot.png
-│ ├── table_forecast_errors.png
-│ └── table_tail_errors.png
+├── fig_anchoring_RV_VIX_FEt.png
+├── fig_risk_premia_compression_baa_aaa.png
+├── forecast_errors_on_tail_vs_non-tail_days.png
+├── residuals_vs_fitted_margin_debt.png
+├── tail_vs_non-tail_forecast_errors_table.png
+├── vol_forecast_mae_by_regime_and_model.png
+└── volatility_forecast_errors_table.png
 │
 ├── notebooks/
-│ ├── Hypothesis_3A_Forecastability_Redacted.ipynb
-│ ├── Hypothesis_3B_TailBehavior_Redacted.ipynb
-│ └── Hypothesis_3C_Crowding_Redacted.ipynb
+│   ├── Hypothesis_3A_Forecastability_Redacted.ipynb
+│   ├── Hypothesis_3B_TailBehavior_Redacted.ipynb
+│   └── Hypothesis_3C_Crowding_Redacted.ipynb
 │
 └── README.md
 
