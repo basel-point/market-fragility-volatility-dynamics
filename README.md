@@ -20,8 +20,9 @@ FE_t = | RV_t – VIX_t |
 This repository provides a curated, redacted version of the analysis used to produce the figures in the article.
 
 ---
-
 ## Repository Structure
+```
+
 fragility-in-low-volatility-regimes/
 │
 ├── figures/
@@ -40,6 +41,7 @@ fragility-in-low-volatility-regimes/
 │
 └── README.md
 
+```
 ---
 
 ##  Notebook Notes (Redacted)
