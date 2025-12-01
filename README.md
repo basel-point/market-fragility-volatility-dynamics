@@ -4,7 +4,7 @@
 This repository contains the public-facing analysis, figures, and cleaned notebooks accompanying the research article:
 
 🔗 **How Stability Creates Market Instability**  
-https://thebaselpoint.substack.com/
+[https://thebaselpoint.substack.com/](https://thebaselpoint.substack.com/p/how-stability-creates-market-instability)
 
 The project explores how prolonged low-volatility regimes quietly reshape market fragility. Using data from 1990–2025, the analysis focuses on three empirical mechanisms:
 
