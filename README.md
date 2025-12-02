@@ -1,18 +1,21 @@
 # Fragility in Low-Volatility Regimes (1990–2025)
 ### Supporting Code & Figures for “How Stability Creates Market Instability”
 
-This repository contains the public-facing analysis, figures, and cleaned notebooks accompanying the research article:
+This repository contains the public-facing analysis, figures, and redacted notebooks accompanying the research article:
 
-🔗 **How Stability Creates Market Instability**  
-[https://thebaselpoint.substack.com/](https://thebaselpoint.substack.com/p/how-stability-creates-market-instability)
+🔗 **[How Stability Creates Market Instability](https://thebaselpoint.substack.com/)**
 
-The project explores how prolonged low-volatility regimes quietly reshape market fragility. Using data from 1990–2025, the analysis focuses on three empirical mechanisms:
+Raw or processed datasets are **not** included for licensing and reproducibility reasons.
 
-1. **Regime-dependent forecastability** — why standard volatility models (e.g., GARCH) fail abruptly once the market exits a calm regime.  
-2. **Tail-dependent behavior** — how downside extremes widen and become more nonlinear even while average volatility remains low.  
-3. **Crowding and leverage** — why surface indicators such as the VIX, credit spreads, and margin debt often fail to detect fragility until the unwind.
+The project explores how prolonged low-volatility regimes quietly shape market fragility. Using data from 1990–2025, the analysis focuses on three mechanisms:
 
-The core metric used throughout the analysis is the forecast-error gap between realized and implied volatility:
+- **Regime-dependent forecastability** — why volatility models (e.g., GARCH) fail abruptly once the market exits a calm regime.  
+- **Tail-dependent behavior** — how downside extremes widen even while average volatility remains low.  
+- **Crowding and leverage** — why surface indicators such as the VIX, credit spreads, and margin debt often fail to reveal fragility until the unwind.
+
+The core metric used throughout is the forecast-error gap:
+
+
 
 FE_t = | RV_t – VIX_t |
 
@@ -22,7 +25,6 @@ This repository provides a curated, redacted version of the analysis used to pro
 ---
 ## Repository Structure
 ```
-
 fragility-in-low-volatility-regimes/
 │
 ├── figures/
@@ -41,7 +43,6 @@ fragility-in-low-volatility-regimes/
 │
 └── README.md
 
-
 ```
 ---
 
@@ -59,7 +60,7 @@ To protect proprietary modeling logic and data sources, the following have been 
 Where applicable, cells have been replaced with:
 
 ```python
-# Redacted: proprietary modeling code removed for public release.
+# [REDACTED]: proprietary modeling code removed for public release
 ```
 
 The visible cells include:
@@ -104,9 +105,10 @@ If referencing this work, please cite:
 
 For inquiries related to this research:
 
-**S.Y. Kim**
-The Basel Point
-*thebaselpoint@gmail.com*
+S.Y. Kim  
+The Basel Point  
+thebaselpoint@gmail.com
+
 
 ## License
 
